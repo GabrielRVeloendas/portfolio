@@ -1,0 +1,260 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+@font-face {
+    src: url(Font/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    font-family: 'Inter';
+    font-weight: normal;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    background-color: #000606;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background: hsl(0 0% 0% / 0.1);
+    backdrop-filter: blur(5rem);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+    box-sizing: border-box;
+}
+
+header a {
+    text-decoration: none;
+    border: none;
+}
+
+header h2 {
+    color: white;
+    margin: 2rem;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+header h2 span {
+    transition: all 350ms;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+header a:hover  span{
+    text-decoration: none;
+    color: #140c8d;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    margin-right: 4rem;
+    font-size: 1.6rem;
+    transition: all ease-out 350ms;
+}
+
+#navbar a:hover {
+    animation-duration: 350ms;
+    border-bottom: 1px solid transparent;
+    font-weight: bold;
+}
+
+#welcome-section {
+    height: 100vh;
+    max-height: 700px;
+    width: 100%;
+    color: white;
+    display: flex;
+    background: linear-gradient(45deg, hsl(0 0% 0% / 1), hsl(0 0% 0% / 0.2));
+}
+
+#background-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.apresentation {
+    padding-top: 25rem;
+    align-items: center;
+    text-align: center;
+    margin-left: 6rem;
+    width: 50%;
+    justify-content: center;
+}
+
+.apresentation h1 {
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+    text-align: start;
+    width: 100%;
+}
+
+.apresentation p {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 100%;
+    max-width: 50rem;
+}
+
+#welcome-section img {
+    display: flex;
+    max-width: 50%;
+    object-fit: cover;
+    margin-top: 20rem;
+    height: 300px;
+    width: 55rem;
+    margin-right: 6rem;
+    object-fit: contain;
+}
+
+#projects {
+    text-align: center;
+    color: white;
+    background: #070311;
+}
+
+#projects h2 {
+    font-size: 3.2rem;
+    margin: 0;
+    padding-top: 5.5rem;
+}
+
+#projects p {
+    font-size: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.galery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.project {
+    background-color: #161344;
+    border-radius: 10px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 350px;
+    max-height: 245px;
+    object-fit: cover center;
+    border-radius: 10px 10px 0 0;
+}
+
+.project h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+
+#contacts {
+    color: white;
+    text-align: center;
+    margin-bottom: 10rem;
+    background-color: #18101d;
+    width: 100%;
+    height: 100%;
+}
+
+#contacts h1 {
+    font-size: 3.5rem;
+    padding-top: 3.5rem;
+    margin-top: 0;
+}
+
+#contacts h3 {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+}
+
+#contacts ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    list-style: none;
+    padding-top: 2rem;
+}
+
+#contacts img {
+    max-height: 7rem;
+}
+
+#contacts li:first-of-type {
+    padding-left: 10rem;
+}
+
+#link-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+#contacts a {
+    text-decoration: none;
+    color: white;
+    font-style: none;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+
+#link-icon:hover {
+    color: #4b43b4;
+}
+
+@media screen and (max-width: 1200px) {
+    .apresentation h1 {
+        text-align: center;
+        justify-content: center;
+    }
+    .apresentation {
+        min-width: 540px;
+    }
+}
