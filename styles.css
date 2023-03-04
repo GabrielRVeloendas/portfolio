@@ -64,7 +64,7 @@ header a:hover {
 
 header a:hover  span{
     text-decoration: none;
-    color: #140c8d;
+    color: #7770db;
 }
 
 header ul {
@@ -72,15 +72,20 @@ header ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    gap: 5rem;
+    padding-right: 6rem;
+    
 }
 
 #navbar a {
     text-decoration: none;
     display: flex;
     color: white;
-    margin-right: 4rem;
     font-size: 1.6rem;
-    transition: all ease-out 350ms;
+    transition: border ease-out 500ms;
+    width: 6rem;
+    align-items: center;
+    justify-content: center;
 }
 
 #navbar a:hover {
@@ -256,5 +261,32 @@ header ul {
     }
     .apresentation {
         min-width: 540px;
+    }
+}
+
+@media screen {
+    #welcome-section {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #welcome-section img {
+        display: block;
+        object-fit: cover;
+        margin: 0;
+        margin-left: 105px;
+        border-radius: 15px;
+        padding: 0;
+        height: 300px;
+        width: 100%;
+        max-width: 400px;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+
+    .apresentation {
+        padding-top: 25vh;
     }
 }
