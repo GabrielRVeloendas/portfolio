@@ -264,15 +264,16 @@ header ul {
     }
 }
 
-@media screen {
+@media screen and (max-width: 1000px){
     #welcome-section {
         display: block;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     #welcome-section img {
-        display: block;
+        display: flex;
         object-fit: cover;
         margin: 0;
         margin-left: 105px;
@@ -287,6 +288,15 @@ header ul {
     }
 
     .apresentation {
+        display: flex;
+        flex-direction: column;
         padding-top: 25vh;
+        text-align: center;
+        justify-content: center;
+        width: 90%;
     }
+    header {
+        width: 100%;
+    }
+
 }
