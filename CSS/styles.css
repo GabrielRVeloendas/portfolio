@@ -7,7 +7,6 @@
 }
 
 html {
-    box-sizing: border-box;
     font-family: 'Inter';
 }
 
@@ -16,8 +15,22 @@ html {
     font-family: 'Inter';
     font-weight: normal;
     border: none;
+    color: #464646;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    padding: 2em 4em;
+}
+
+header h2 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #464646;
+}
 
 header h2 span {
     transition: all 350ms;
@@ -28,7 +41,118 @@ header a:hover {
 }
 
 header a:hover  span{
-    color: #7770db;
+    color: #2473e9;
 }
 
+body {
+    background-color: #F5F5F5;
+}
 
+.nav {
+    display: flex;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #464646;
+    font-weight: medium;
+}
+
+#welcome__section {
+    display: flex;
+    align-items: center;
+    padding: 2em 4em;
+}
+
+.apresentacao {
+    padding-right: 0.5em;
+}
+
+.apresentacao h1 {
+    font-size: 3.25em;
+}
+
+.apresentacao__paragrafo {
+    font-size: 1.375em;
+}
+
+#sobre {
+    width: 100%;
+    padding: 4em;
+    background-color: #EAF2FD;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#habilidades {
+    text-align: center;
+    padding-top: 4em;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em 0;
+    flex-wrap: wrap;
+}
+
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: flex-start;
+    justify-content: end;
+    width: 11em;
+    height: 11em;
+    padding: 1em;
+}
+
+.skills__item figcaption {
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+
+.skills__item img {
+    fill: #2A7AE4;
+    stroke: #2A7AE4;
+    height: 2.2em;
+}
+
+#hobbies {
+    padding-top: 2.5em;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em 0;
+    flex-wrap: wrap;
+}
+
+.hobbies__item {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: flex-start;
+    justify-content: end;
+    width: 11em;
+    height: 11em;
+    padding: 1em;
+}
+
+.hobbies__item figcaption {
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+
+.hobbies__item img {
+    fill: #2A7AE4;
+    stroke: #2A7AE4;
+    height: 2.2em;
+}
