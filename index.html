@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 
@@ -87,116 +89,125 @@
                 </figure>
             </div>
         </section>
-        <section id="formacao">
-            <h3>Formação acadêmica</h3>
-            <div class="formacoes">
-                <div class="formacoes__item">
-                    <img src="" alt="">
-                    <h4>Tecnologia em Produção Audiovisual</h4>
-                    <h6>2018 - Uniube</h6>
+        <section class="academic">
+            <h3 class="academic__title" id="formacao">Formação acadêmica</h3>
+            <div class="academic__courses">
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!-- Insira a logo de seu local de formação -->
+                        <li class="academic__courses__item__img"><img src="./Imagens/icons/uniube-logo-4C857E8059-seeklogo.com.png"></li>
+                        <li class="academic__courses__item__title"><h4>Tecnologia em Produção Audiovisual</h4></li>
+                        <li class="academic__courses__item__subtitle"><p>2019 - Uniube</p></li>
+                    </ul>
                 </div>
-                <div class="formacoes__item">
-                    <img src="" alt="">
-                    <h4>Curso de Figma</h4>
-                    <h6>2023</h6>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!-- Insira a logo de seu local de formação -->
+                        <li class="academic__courses__item__img"><img src="./Imagens/icons/logo-curso de figma.svg"></li>
+                        <li class="academic__courses__item__title"><h4>Formação Curso de Figma</h4></li>
+                        <li class="academic__courses__item__subtitle"><p>2023 - Curso de Figma</p></li>
+                    </ul>
                 </div>
-                <div class="formacoes__item">
-                    <img src="" alt="">
-                    <h4>Tecnologia em Analise e Desenvolvimento de Sistemas</h4>
-                    <h6>Em andamento - Descomplica</h6>
-                </div>
-            </div>
-        </section>
-        <section id="projects">
-            <h3>Experiência profissional</h3>
-            <div class="galeria">
-                <div class="projeto">
-                    <a href="https://github.com/GabrielRVeloendas/landingpage-freecodecamp"><img
-                            src="./Imagens/Landing Page.png" alt="Imagem do projeto de página de landing page"></a>
-                    <div class="projeto__descricao">
-                        <h4>Landing Page</h4>
-                        <h6>Projeto FreeCodeCamp</h6>
-                        <div class="projeto__botao">
-                            <button><a href="https://github.com/GabrielRVeloendas/landingpage-freecodecamp">Repositório</a></button>
-                            <button><a href="">Ver demo</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="projeto">
-                    <a href="https://github.com/GabrielRVeloendas/thechnicaldocumentation-freecodecamp-"><img
-                            src="./Imagens/Documentacion .png" alt="Imagem do projeto de página de documentação"></a>
-                    <div class="projeto__descricao">
-                        <h4>Technical Documentacion</h4>
-                        <h6>Projeto FreeCodeCamp</h6>
-                        <div class="projeto__botao">
-                            <button><a href="https://github.com/GabrielRVeloendas/thechnicaldocumentation-freecodecamp-">Repositório</a></button>
-                            <button><a href="">Ver demo</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="projeto">
-                    <a href="https://github.com/GabrielRVeloendas/tributesurvey-freecodecamp"><img
-                            src="./Imagens/Tribute Page.png" alt="Imagem do projeto de página de tributo"></a>
-                    <div class="projeto__descricao">
-                        <h4>Tribute Survey</h4>
-                        <h6>Projeto FreeCodeCamp</h6>
-                        <div class="projeto__botao">
-                            <button><a href="https://github.com/GabrielRVeloendas/tributesurvey-freecodecamp">Repositório</a></button>
-                            <button><a href="">Ver demo</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="projeto">
-                    <a href="https://github.com/GabrielRVeloendas/formsurvey.github.io"><img
-                            src="./Imagens/Fomulario de Pesquisa.png"
-                            alt="Imagem do projeto de página de formulário de pesquisa"></a>
-                    <div class="projeto__descricao">
-                        <h4>Form Survey</h4>
-                        <h6>Projeto FreeCodeCamp</h6>
-                        <div class="projeto__botao">
-                            <button><a href="https://github.com/GabrielRVeloendas/formsurvey.github.io">Repositório</a></button>
-                            <button><a href="">Ver demo</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="projeto">
-                    <a href="https://github.com/GabrielRVeloendas/gabrielrveloendas.github.io"><img
-                            src="./Imagens/Bubble Tea Site.png"
-                            alt="Imagem do projeto de página de trabalho de faculdade onde o tema foi bubble tea"></a>
-                    <div class="projeto__descricao">
-                        <h4>Bubble Tea Page</h4>
-                        <h6>Projeto FreeCodeCamp</h6>
-                        <div class="projeto__botao">
-                            <button><a href="">Repositório</a></button>
-                            <button><a href="https://github.com/GabrielRVeloendas/gabrielrveloendas.github.io">Ver demo</a></button>
-                        </div>
-                    </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!-- Insira a logo de seu local de formação -->
+                        <li class="academic__courses__item__img"><img src="./Imagens/icons/Logo_-_Descomplica.png"></li>
+                        <li class="academic__courses__item__title"><h4>Análise e Desenvolvimento de Software</h4></li>
+                        <li class="academic__courses__item__subtitle"><p>Em andamento - Faculdade Descomplica</p></li>
+                    </ul>
                 </div>
             </div>
         </section>
-        <section id="contato">
-            <img src="./Imagens/telefone.png" alt="">
-            <div class="contato__form">
-                <h3>Contato</h3>
-                <h6>Quer o melhor estagiário na sua equipe?</h6>
-                <h6>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</h6>
-                <form action="">
-                    <label for=""></label>
-                    <input type="name">
-                    <label for=""></label>
-                    <input type="email">
-                    <label for=""></label>
-                    <input type="text">
-                    <label for=""></label>
-                    <input type="text">
-                </form>
-                <button>Enviar Mensagem</button>
+
+    <!-- Sessão de Experiência Profissional/Projetos-->
+    <section class="experience">
+        <h3 class="experience__section__title" id="xp">Experiência Profissional</h3>
+        <div class="experiencie__box">
+            <!-- Insira a logo/captura de seu projeto/trabalho -->
+            <img class="experience__img" src="./Imagens/Landing Page.png">
+            <div class="experience__info">
+                <h2 class="experience__title">Landing Page</h2>
+                <h4 class="experience__text">Desafio do FireCodeCamp para fazer uma Landing Page</h4>
+                    <div class="experience__description">
+                        <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
+                            <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                    </div>
+            </div>
+        </div>  
+
+        <div class="experiencie__box">
+            <!-- Insira a logo/captura de seu projeto/trabalho -->
+            <img class="experience__img" src="./Imagens/Tribute Page.png">
+            <div class="experience__info">
+                <h2 class="experience__title">Tribute Page</h2>
+                <h4 class="experience__text">Desafio do FireCodeCamp para fazer uma Tribute Page</h4>
+                    <div class="experience__description">
+                        <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
+                            <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                    </div>
+            </div>
+        </div>  
+
+        <div class="experiencie__box">
+            <!-- Insira a logo de seu projeto/trabalho -->
+            <img class="experience__img" src="./Imagens/Fomulario de Pesquisa.png">
+            <div class="experience__info">
+                <h2 class="experience__title">Formulário de Pesquisa</h2>
+                <h4 class="experience__text">Desafio do FireCodeCamp para fazer um Formulário de Pesquisa</h4>
+                    <div class="experience__description">
+                        <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
+                            <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                    </div>
+            </div>
+        </div>  
+
+        <div class="experiencie__box">
+            <!-- Insira a logo de seu projeto/trabalho -->
+            <img class="experience__img" src="./Imagens/Bubble Tea Site.png">
+            <div class="experience__info">
+                <h2 class="experience__title">Bubble Tea Site</class=></h2>
+                <h4 class="experience__text">Site para um trabalho da faculdade</h4>
+                    <div class="experience__description">
+                        <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
+                            <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                    </div>
+            </div>
+        </div>  
+    </section>
+        <!-- Sessão de Contato -->
+        <section class="formcontato">
+            <div id="contato" class="formcontato__contacto">
+                <div class="formcontato--esquerda">
+                    <img class="formcontato__img" src="./Imagens/telefone.png">
+                </div>
+                <div class="formcontato__text">
+                    <h3 class="formcontato__title">Contato</h3>
+                    <h4 class="formcontato__subtext">Quer entrar em contato comigo?</h4>
+                    <h4 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h4>
+                    <form class="formcontato__form">
+                        <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
+                        <input class="formcontato__input" type="email" id="email" placeholder="Email">
+                        <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                        <button class="formcontato__botao">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+        <!-- Sessão de Footer/Rodapé-->
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desenvolvido por Fulana de Tal</p>
+                <p>2022</p>
             </div>
         </section>
-    </main>
-    <footer id="rodape">
-        <p>Desenvolvido por Gabriel R Veloendas</p>
-        <p>2023</p>
-    </footer>
+    </div>
+    <!-- Script Linkado do seu documento de JavaScript -->
+<script src="validate.js"></script>
 </body>
 </html>
