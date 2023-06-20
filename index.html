@@ -103,7 +103,7 @@
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
                         <!-- Insira a logo de seu local de formação -->
-                        <li class="academic__courses__item__img"><img src="./Imagens/icons/logo-curso de figma.svg"></li>
+                        <li class="academic__courses__item__img"><img src="./Imagens/icons/logo-curso de figma.svg" id="logo-figma"></li>
                         <li class="academic__courses__item__title"><h4>Formação Curso de Figma</h4></li>
                         <li class="academic__courses__item__subtitle"><p>2023 - Curso de Figma</p></li>
                     </ul>
@@ -189,10 +189,14 @@
                     <h4 class="formcontato__subtext">Quer entrar em contato comigo?</h4>
                     <h4 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h4>
                     <form class="formcontato__form">
-                        <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
-                        <input class="formcontato__input" type="email" id="email" placeholder="Email">
-                        <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                        <label for="nome" class="formcontato__label">Nome</label>
+                        <input class="formcontato__input" type="text" id="nome" placeholder="">
+                        <label for="email" class="formcontato__label">Email</label>
+                        <input class="formcontato__input" type="email" id="email" placeholder="">
+                        <label for="assunto" class="formcontato__label">Assunto</label>
+                        <input class="formcontato__input" type="text" id="assunto" placeholder="">
+                        <label for="mensagem" class="formcontato__label">Mensagem</label>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder=""></textarea>
                         <button class="formcontato__botao">Enviar mensagem</button>
                     </form>
                 </div>

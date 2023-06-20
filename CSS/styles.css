@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     font-size: 1em;
-    padding: 2em 4em;
+    padding: 2em 6rem;
 }
 
 header a {
@@ -62,7 +62,7 @@ body {
 #welcome__section {
     display: flex;
     align-items: center;
-    padding: 2em 4em;
+    padding: 2rem 6rem;
 }
 
 .apresentacao {
@@ -79,7 +79,7 @@ body {
 
 #sobre {
     width: 100%;
-    padding: 4em;
+    padding: 4rem 6rem;
     background-color: #EAF2FD;
 }
 
@@ -91,12 +91,12 @@ h3 {
 
 #habilidades {
     text-align: center;
-    padding-top: 4em;
+    padding: 4rem 6rem 0 6rem;
 }
 
 .skills {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 4em 0;
     flex-wrap: wrap;
 }
@@ -130,7 +130,7 @@ h3 {
 
 .hobbies {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 4rem 0;
     flex-wrap: wrap;
 }
@@ -160,7 +160,7 @@ h3 {
 
 .academic {
     width: 100%;
-    padding: 4em;
+    padding: 4rem 6rem;
     background-color: #EAF2FD;
     text-align: center;
 }
@@ -173,16 +173,20 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .academic__courses__item__img {
     display: flex;
-    height: 286px;
-    width: 368px;
+    height: 220px;
+    width: 220px;
     justify-content: center;
     align-items: center;
     background-color: white;
+}
+
+#logo-figma {
+    margin-right: -1rem;
 }
 
 .academic__courses__item__img img { 
@@ -206,7 +210,7 @@ h3 {
 }
 
 .experience{
-    padding: 4rem 2rem;
+    padding: 4rem 6rem;
     text-align: center;
 }
 
@@ -306,6 +310,15 @@ h3 {
     flex-direction: column;
 }
 
+.formcontato__label {
+    position: relative;
+    font-size: 1rem;
+    top: 2rem;
+    left: 0.75rem;
+    color: #2473e9;
+    transition: all .25s;
+}
+
 .formcontato__form input {
     padding: 1rem 0.75rem;
     font-family: 'Raleway';
@@ -315,7 +328,7 @@ h3 {
 }
 
 .formcontato__form input::placeholder {
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 .formcontato__form input:focus::placeholder {
