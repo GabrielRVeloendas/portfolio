@@ -1,0 +1,63 @@
+header {
+    align-items: center;
+    display: flex;
+    font-size: 1em;
+    justify-content: space-between;
+    padding: 2em 6rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h2 {
+    color: #464646;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+header h2 span {
+    transition: all 350ms;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+header a:hover  span{
+    color: #2473e9;
+}
+
+header li:not(:last-of-type) {
+    padding-right: 2rem;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__link {
+    color: #464646;
+    font-weight: medium;
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+    border: 2px solid transparent;
+}
+
+.nav__link:hover {
+    border-bottom: 2px solid #4646467c;
+}
+
+/* ----------------responsividade------------------------- */ 
+
+@media screen and (min-width:0) {
+    
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width:992px) {
+    
+}

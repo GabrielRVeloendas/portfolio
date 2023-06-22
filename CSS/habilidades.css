@@ -1,0 +1,84 @@
+#habilidades {
+    text-align: center;
+    padding: 4rem 6rem 0 6rem;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4em 0;
+}
+
+.skills__item {
+    align-items: flex-start;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 11rem;
+    justify-content: end;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 11rem;
+}
+
+.skills__item figcaption {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+
+.skills__item img {
+    fill: #2A7AE4;
+    stroke: #2A7AE4;
+    height: 2.2rem;
+}
+
+#hobbies {
+    padding-top: 2.5rem;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+    flex-wrap: wrap;
+}
+
+.hobbies__item {
+    align-items: flex-start;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 11rem;
+    justify-content: end;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 11rem;
+}
+
+.hobbies__item figcaption {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+
+.hobbies__item img {
+    fill: #2A7AE4;
+    stroke: #2A7AE4;
+    height: 2.2rem;
+}
+
+/* ----------------responsividade------------------------- */ 
+
+@media screen and (min-width:0) {
+    
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width:992px) {
+    
+}

@@ -1,0 +1,65 @@
+.academic {
+    width: 100%;
+    padding: 4rem 6rem;
+    background-color: #EAF2FD;
+    text-align: center;
+}
+
+.academic__title {
+    padding-bottom: 2rem;
+}
+
+.academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.academic__courses__item__img {
+    display: flex;
+    height: 220px;
+    width: 220px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#logo-figma {
+    margin-right: -1rem;
+}
+
+.academic__courses__item__img img { 
+    height: 100%;
+    max-width: 80%;
+    object-fit: contain;
+}
+
+.academic__courses__list {
+    text-align: justify;
+}
+
+.academic__courses__item__title {
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+.academic__courses__item__subtitle {
+    padding-top: 0.5rem;
+    font-size: 0.75rem;
+    padding-bottom: 0.5rem;
+}
+
+/* ----------------responsividade------------------------- */ 
+
+@media screen and (min-width:0) {
+    
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width:992px) {
+    
+}

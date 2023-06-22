@@ -1,0 +1,27 @@
+#sobre {
+    background-color: #EAF2FD;
+    padding: 4rem 6rem;
+    width: 100%;
+}
+
+.sobre__texto h3 {
+    padding-bottom: 0.75rem;
+}
+
+.sobre__texto p {
+    line-height: 1.3rem;
+}
+
+/* ----------------responsividade------------------------- */ 
+
+@media screen and (min-width:0) {
+    
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width:992px) {
+    
+}

@@ -1,0 +1,56 @@
+#welcome__section {
+    align-items: center;
+    display: flex;
+    padding: 2rem 6rem;
+}
+
+.apresentacao {
+    padding-right: 0.5em;
+}
+
+.apresentacao h1 {
+    font-size: 3.25em;
+    padding-bottom: 0.75rem;
+}
+
+.apresentacao__paragrafo {
+    font-size: 1.375em;
+    min-width: 500px;
+    line-height: 1.6rem;
+}
+
+.apresentacao__links {
+    padding-top: 1rem;
+}
+
+.apresentacao__links a {
+    text-decoration: none;
+    color: #464646;
+}
+
+.apresentacao__links a:not(:last-of-type) {
+    padding-right: 2rem;
+}
+
+.apresentacao__links img {
+    padding-left: 0.3rem;
+}
+
+.perfil__picture {
+    width: 100%;
+    flex-shrink: 2;
+}
+
+/* ----------------responsividade------------------------- */ 
+
+@media screen and (min-width:0) {
+    
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width:992px) {
+    
+}
