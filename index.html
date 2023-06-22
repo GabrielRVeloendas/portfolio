@@ -30,9 +30,15 @@
         <section id="welcome__section">
             <div class="apresentacao">
                 <h1>Oiê, me chamo Gabriel.</h1>
-                <p class="apresentacao__paragrafo">Sou um programador em busca da sua primeira oportunidade. Sou formado em Produção Audiovisual e atualmente estou cursando Analise de Sistemas. Gosto de toda a área da programação, curto a área de Front-end, já fiz cursos em HTML/CSS, JavaScript, Figma.</p>
+                <p class="apresentacao__paragrafo">Sou formado em Produção Audiovisual e atualmente estou cursando Analise de Sistemas. Curto a área de Front-end, já fiz cursos em HTML/CSS, JavaScript, Figma.</p>
+                <div class="sobre__links">
+                    <a href="https://github.com/GabrielRVeloendas">Github<img src="./Imagens/icons/seta.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/gabriel-r-veloendas/">Linkedin<img src="./Imagens/icons/seta.png" alt=""></a>
+                    <a href="https://www.instagram.com/gabrielrvelo">Instragram<img src="./Imagens/icons/seta.png" alt=""></a>
+                    <a href="./Imagens/Currículo - Gabriel R Veloendas.pdf">Currículo<img src="./Imagens/icons/seta.png" alt=""></a>
+                </div>
             </div>
-            <img src="./Imagens/picture.png" alt="Foto de perfil">
+            <img class="perfil__picture" src="./Imagens/picture.png" alt="Foto de perfil">
         </section>
         <section id="sobre">
             <div class="sobre__texto">
@@ -189,14 +195,34 @@
                     <h4 class="formcontato__subtext">Quer entrar em contato comigo?</h4>
                     <h4 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h4>
                     <form class="formcontato__form">
-                        <label for="nome" class="formcontato__label">Nome</label>
-                        <input class="formcontato__input" type="text" id="nome" placeholder="">
-                        <label for="email" class="formcontato__label">Email</label>
-                        <input class="formcontato__input" type="email" id="email" placeholder="">
-                        <label for="assunto" class="formcontato__label">Assunto</label>
-                        <input class="formcontato__input" type="text" id="assunto" placeholder="">
-                        <label for="mensagem" class="formcontato__label">Mensagem</label>
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder=""></textarea>
+                        <div class="formcontato__div">
+                            <input required class="formcontato__input" type="text" id="nome" placeholder=" ">
+                            <label for="nome" class="formcontato__label">Nome</label>
+                            <span class="input__erro" data-span="nome">
+                                Favor preencher com seu nome completo.
+                            </span>
+                        </div>
+                        <div class="formcontato__div">
+                            <input required class="formcontato__input" type="email" id="email" placeholder=" ">
+                            <label for="email" class="formcontato__label">Email</label>
+                            <span class="input__erro" data-span="email">
+                                Favor preencher com seu email válido.
+                            </span>
+                        </div>
+                        <div class="formcontato__div">
+                            <input required class="formcontato__input" type="text" id="assunto" placeholder=" ">
+                            <label for="assunto" class="formcontato__label">Assunto</label>
+                            <span class="input__erro" data-span="assunto">
+                                Favor descrever qual o assunto.
+                            </span>
+                        </div>
+                        <div class="formcontato__div">
+                            <textarea required class="formcontato__textarea" rows="" cols="" maxlength="300" id="mensagem" name="mensagem" placeholder=" "></textarea>
+                            <label required for="mensagem" class="formcontato__label">Mensagem</label>
+                            <span class="input__erro" data-span="mensagem">
+                                Favor escrever sua mensagem com mínimo de 50 caracteres e máximo de 300.
+                             </span>
+                        </div>
                         <button class="formcontato__botao">Enviar mensagem</button>
                     </form>
                 </div>
