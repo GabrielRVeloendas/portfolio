@@ -1,13 +1,10 @@
 #habilidades {
     text-align: center;
-    padding: 4rem 6rem 0 6rem;
 }
 
 .skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 4em 0;
 }
 
 .skills__item {
@@ -15,7 +12,6 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 11rem;
     justify-content: end;
     padding: 1rem;
     margin-top: 1rem;
@@ -40,8 +36,6 @@
 
 .hobbies {
     display: flex;
-    justify-content: space-between;
-    padding: 4rem 0;
     flex-wrap: wrap;
 }
 
@@ -50,7 +44,6 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 11rem;
     justify-content: end;
     padding: 1rem;
     margin-top: 1rem;
@@ -72,13 +65,59 @@
 /* ----------------responsividade------------------------- */ 
 
 @media screen and (min-width:0) {
-    
+    #habilidades {
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .skills {
+        padding: 1rem 0;
+        justify-content: space-around;
+    }
+
+    .skills__item {
+        height: 8rem;
+    }
+
+    .hobbies {
+        padding: 1rem 0;
+        justify-content: space-around;
+    }
+
+    .hobbies__item {
+        height: 8rem
+    }
 }
 
 @media screen and (min-width:768px) {
-    
+    #habilidades {
+        padding: 2rem 3rem 0 3rem;
+    }
+
+    .hobbies {
+        padding: 4rem 0;
+    }
 }
 
 @media screen and (min-width:992px) {
-    
+    #habilidades {
+        padding: 4rem 6rem 0 6rem;
+    }
+
+    .skills {
+        justify-content: space-between;
+        padding: 4em 0;
+    }
+
+    .skills__item {
+        height: 11rem;
+    }
+
+    .hobbies {
+        padding: 4rem 0;
+        justify-content: space-between;
+    }
+
+    .hobbies__item {
+        height: 11rem
+    }
 }

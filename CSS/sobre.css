@@ -1,6 +1,5 @@
 #sobre {
     background-color: #EAF2FD;
-    padding: 4rem 6rem;
     width: 100%;
 }
 
@@ -15,13 +14,19 @@
 /* ----------------responsividade------------------------- */ 
 
 @media screen and (min-width:0) {
-    
+    #sobre {
+        padding: 1rem 1rem;
+    }
 }
 
 @media screen and (min-width:768px) {
-    
+    #sobre {
+        padding: 2rem 3rem;
+    }
 }
 
 @media screen and (min-width:992px) {
-    
+    #sobre {
+        padding: 4rem 6rem;
+    }
 }

@@ -2,8 +2,6 @@ header {
     align-items: center;
     display: flex;
     font-size: 1em;
-    justify-content: space-between;
-    padding: 2em 6rem;
 }
 
 header a {
@@ -51,13 +49,33 @@ header li:not(:last-of-type) {
 /* ----------------responsividade------------------------- */ 
 
 @media screen and (min-width:0) {
-    
+    .nav {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+        padding: 2rem 0;
+    }
 }
 
 @media screen and (min-width:768px) {
+    .nav {
+        display: flex;
+    }
     
+    header li:not(:last-of-type) {
+        padding-right: 1rem;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 2rem 6rem;
+    }
 }
 
 @media screen and (min-width:992px) {
-    
+    header li:not(:last-of-type) {
+        padding-right: 2rem;
+    }
 }

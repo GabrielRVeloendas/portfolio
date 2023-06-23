@@ -34,7 +34,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 2rem;
     align-items: flex-start;
 }
 
@@ -50,9 +49,6 @@
     padding-bottom: 0.5rem;
 }
 
-.experience__description button {
-    padding: 1rem;
-}
 
 .experiencia__botao--repo {
     color: #2A7AE4;
@@ -82,13 +78,74 @@
 /* ----------------responsividade------------------------- */ 
 
 @media screen and (min-width:0) {
-    
+    .experience{
+        padding: 1rem 1rem;
+        }
+
+    .experiencie__box {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+
+    .experiencie__box:last-of-type {
+        padding-bottom: 0;
+    }
+
+    .experiencie__box:nth-child(2n-1) {
+        flex-direction: column;
+    }
+
+    .experience__info {
+        padding: 0;
+    }
+
+    .experience__img {
+        padding-bottom: 1rem;
+    }
+
+    .experience__description button {
+        padding: 0.75rem;
+    }
+
+    .experience__title {
+        font-size: 1.2rem;
+    }
+
+    .experience__text {
+        font-size: 0.85rem;
+    }
 }
 
 @media screen and (min-width:768px) {
-    
+    .experience__description button {
+        padding: 1rem;
+    }
+
+    .experience__title {
+        font-size: 1.375rem;
+    }
+
+    .experience__text {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width:992px) {
-    
+    .experience{
+        padding: 4rem 6rem;
+    }
+
+    .experiencie__box {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 4rem;
+    }
+
+    .experiencie__box:nth-child(2n-1) {
+        flex-direction: row-reverse;
+    }
+
+    .experience__info {
+        padding: 0 2rem;
+    }
 }

@@ -19,6 +19,10 @@
     line-height: 1.6rem;
 }
 
+.sobre__texto--p2 {
+    padding-top: 1rem;
+}
+
 .apresentacao__links {
     padding-top: 1rem;
 }
@@ -26,6 +30,10 @@
 .apresentacao__links a {
     text-decoration: none;
     color: #464646;
+}
+
+.apresentacao__links a:hover {
+    color: #2473e9;
 }
 
 .apresentacao__links a:not(:last-of-type) {
@@ -44,13 +52,77 @@
 /* ----------------responsividade------------------------- */ 
 
 @media screen and (min-width:0) {
-    
+    #welcome__section {
+        flex-direction: column-reverse;
+        padding: 1rem 1rem;
+        align-items: start;
+    }
+
+    .apresentacao h1 {
+        font-size: 2rem;
+    }
+
+    .apresentacao__paragrafo {
+        min-width: 100%;
+        font-size: 1rem;
+    }
+
+    .perfil__picture {
+        width: 25%;
+        padding-bottom: 1rem;
+    }
+
+    .apresentacao__links a:not(:last-of-type) {
+        padding-right: 1rem;
+    }
+
 }
 
 @media screen and (min-width:768px) {
+    #welcome__section {
+        flex-direction: row;
+        align-items: center;
+        display: flex;
+        padding: 2rem 3rem;
+    }
     
+    .apresentacao h1 {
+        font-size: 2.75em;
+        padding-bottom: 0.75rem;
+    }
+
+    .apresentacao__paragrafo {
+        font-size: 1.3rem;
+        min-width: 400px;
+        line-height: 1.6rem;
+    }
+
+    .perfil__picture {
+        width: 40%;
+    }
+
 }
 
 @media screen and (min-width:992px) {
+    #welcome__section {
+        align-items: center;
+        display: flex;
+        padding: 2rem 6rem;
+    }
+    
+    .apresentacao h1 {
+        font-size: 3.25em;
+        padding-bottom: 0.75rem;
+    }
+    
+    .apresentacao__paragrafo {
+        font-size: 1.375em;
+        min-width: 500px;
+    }
+        
+    .apresentacao__links a:not(:last-of-type) {
+        padding-right: 2rem;
+    }
+    
     
 }
